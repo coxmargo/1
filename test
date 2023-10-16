@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example Application</title>
+</head>
+<body>
+  <h1>Example Application</h1>
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" />
+
+  <button onclick="submitForm()">Submit</button>
+
+  <div id="output"></div>
+
+  <script>
+    function submitForm() {
+      // Get the value entered in the text field
+      var name = document.getElementById('name').value;
+      
+      // Display a greeting message
+      var outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = 'Hello, ' + name + '!';
+    }
+  </script>
+</body>
+</html>
