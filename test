@@ -20,7 +20,7 @@
       
       // Display a greeting message
       var outputDiv = document.getElementById('output');
-      outputDiv.innerHTML = 'Hello, ' + name + '!';
+      outputDiv.innerHTML = 'Hey, ' + name + '!';
     }
   </script>
 </body>
