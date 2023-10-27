@@ -15,7 +15,7 @@
 
   <script>
     function submitForm() {
-      // Get the value entered in the text field
+      // Get the value entered in the text field.
       var name = document.getElementById('name').value;
       
       // Display a greeting message
